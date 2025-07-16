@@ -4,8 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load your cleaned dataset
-df = pd.read_csv("netflix_cleaned.csv")  # Replace with actual filename
-
+df = pd.read_csv("netflix_cleaned.csv") 
 st.title("🎬 Netflix Content Explorer")
 
 # Sidebar filters
